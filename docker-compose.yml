@@ -1,0 +1,5 @@
+version: '3.9'
+services:
+  gateway-demo:
+    build: .
+    command: python -m fair_gateway.main
